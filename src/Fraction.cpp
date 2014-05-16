@@ -2,7 +2,6 @@
 #include <string>
 #include <sstream>
 
-/* Constructeurs */
 Fraction::Fraction() {
 
 }
@@ -13,7 +12,6 @@ Fraction::Fraction(int n, int d)
 	_denominateur = d;
 }
 
-/* Getters et setters */
 const int Fraction::getNumerateur() const
 {
 	return _numerateur;
@@ -37,8 +35,10 @@ void Fraction::setDenominateur(const int iDenominateur)
 string Fraction::Afficher()
 {
 	string var = "" + toString(this->_numerateur) + "/" + toString(this->_denominateur);
+
 	return var;
 }
+
 
 string Fraction::toString(const int nb)
 {
