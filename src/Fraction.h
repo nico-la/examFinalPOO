@@ -18,6 +18,8 @@ void addition(const int add);
 void addition(const Fraction& ma_fraction);
 
 string toString(const int nb);
+void operator+(const Fraction& ma_fraction);
+void operator+(int ope);
 
 const int getNumerateur() const;
 const int getDenominateur() const;

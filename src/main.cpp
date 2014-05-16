@@ -1,19 +1,9 @@
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <vector>
-#include <string>
-#include <list>
-#include <unistd.h>
-#include <stdlib.h>
-
+#include <gtest/gtest.h>
 
 using namespace std;
 
-
 int main(int argc, char **argv) {
 
-	printf("Test d'execution.\n");
-    return 0;
-
+	::testing::InitGoogleTest(&argc,argv);
+	return RUN_ALL_TESTS();
 }
