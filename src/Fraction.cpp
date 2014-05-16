@@ -39,6 +39,15 @@ string Fraction::Afficher()
 	return var;
 }
 
+void Fraction::addition(int add)
+{
+
+}
+
+void Fraction::addition(const Fraction&)
+{
+
+}
 
 string Fraction::toString(const int nb)
 {

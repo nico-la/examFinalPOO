@@ -14,6 +14,8 @@ Fraction();
 Fraction(int n, int d);
 
 string Afficher();
+void addition(const int add);
+void addition(const Fraction& ma_fraction);
 
 string toString(const int nb);
 
